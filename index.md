@@ -2,7 +2,9 @@
 layout: home
 ---
 
-👋 **Hi, I’m Trijit**
+# Trijit’s Daily Blog ✍️
+
+Hi, I’m Trijit 👋  
 
 Welcome to my daily blog.  
 I write about:
@@ -10,4 +12,4 @@ I write about:
 - My thoughts
 - Tech & life
 
-📌 New posts are added **every day**.
+📌 New posts are added every day.

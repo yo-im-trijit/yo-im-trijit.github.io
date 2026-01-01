@@ -1,0 +1,9 @@
+theme: minima
+
+title: ""
+description: ""
+author: Trijit
+
+show_excerpts: true
+minima:
+  skin: dark

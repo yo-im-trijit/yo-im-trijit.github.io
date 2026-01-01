@@ -10,3 +10,6 @@ minima:
   skin: dark
 
 markdown: kramdown
+include:
+  - assets
+

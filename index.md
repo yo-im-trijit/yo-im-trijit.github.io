@@ -1,8 +1,13 @@
 ---
-title: My Daily Blog
+layout: home
 ---
 
-# Welcome 👋
+👋 **Hi, I’m Trijit**
 
-This is my daily blog website.
-I will post here every day.
+Welcome to my daily blog.  
+I write about:
+- What I learn
+- My thoughts
+- Tech & life
+
+📌 New posts are added **every day**.

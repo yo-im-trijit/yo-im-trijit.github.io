@@ -2,13 +2,18 @@
 layout: home
 ---
 
-## 👋 Hi, I’m Trijit
+<div class="hero">
+  <h1>Hi, I’m Trijit</h1>
+  <p class="subtitle">
+    I write one short blog every day about learning, thoughts, and life.
+  </p>
+</div>
 
-Welcome to my **daily blog**.
+---
 
-I write about:
-- 📘 What I learn
-- 💭 My thoughts
+### What you’ll find here
+- 📘 Things I learn
+- 💭 Honest thoughts
 - 💻 Tech & life
 
-✨ This blog is my space to grow, think, and improve — one post a day.
+> *One post a day. No pressure. Just progress.*

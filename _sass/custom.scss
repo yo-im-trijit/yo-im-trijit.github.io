@@ -1,22 +1,145 @@
----
----
+/* ================================
+   Dark Tech Theme – Yo I’m Trijit
+   ================================ */
 
-@import "minima";
-@import "custom";
-.subscribe {
-  display: none;
+/* ---- Base ---- */
+body {
+  background-color: #0e0f13;
+  color: #d1d5db;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Inter, Roboto, sans-serif;
+  line-height: 1.75;
 }
-/* Post list cards */
+
+/* Content width */
+.wrapper {
+  max-width: 720px;
+  padding: 0 1.2rem;
+}
+
+/* ---- Typography ---- */
+h1, h2, h3, h4 {
+  color: #f9fafb;
+  letter-spacing: -0.6px;
+}
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+/* ---- Links ---- */
+a {
+  color: #7dd3fc; /* soft tech cyan */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Hero Section ---- */
+.hero {
+  margin: 4rem 0 3rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #9ca3af;
+  margin-top: 0.8rem;
+}
+
+/* ---- Lists ---- */
+ul {
+  margin-left: 1.2rem;
+}
+
+/* ---- Homepage Post List ---- */
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 3rem;
+}
+
 .post-list > li {
-  margin-bottom: 2.5rem;
-  padding: 1.5rem;
-  border: 1px solid #333;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.02);
+  margin-bottom: 2.2rem;
+  padding: 1.6rem 1.8rem;
+  background: #141621;
+  border: 1px solid #1f2937;
+  border-radius: 14px;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
 .post-list > li:hover {
   transform: translateY(-3px);
-  border-color: #666;
+  border-color: #334155;
+}
+
+/* Post title */
+.post-link {
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #f9fafb;
+}
+
+/* Post meta */
+.post-meta {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  margin-bottom: 0.6rem;
+}
+
+/* Post excerpt */
+.post-excerpt {
+  color: #cbd5e1;
+  margin-top: 0.8rem;
+}
+
+/* ---- Individual Post Page ---- */
+.post-content {
+  font-size: 1.05rem;
+  margin-top: 3rem;
+}
+
+.post-content h2 {
+  margin-top: 2.5rem;
+}
+
+.post-content blockquote {
+  border-left: 3px solid #334155;
+  padding-left: 1rem;
+  color: #9ca3af;
+  font-style: italic;
+}
+
+/* ---- Code Blocks ---- */
+pre, code {
+  background: #0b0c10;
+  color: #e5e7eb;
+  border-radius: 8px;
+}
+
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+/* ---- Footer ---- */
+.site-footer {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #1f2937;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+/* ---- Hide RSS (for now) ---- */
+.subscribe {
+  display: none;
 }

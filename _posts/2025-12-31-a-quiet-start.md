@@ -1,6 +1,6 @@
 ---
 title: "A Quiet Start"
-date: 2026-01-01
+date: 2025-12-31
 ---
 Today I finally made this blog with github.I had a lot of fun setting this up after new year.
 

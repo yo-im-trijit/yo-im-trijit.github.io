@@ -1,8 +1,11 @@
 theme: minima
 
-title: ""
+title: "Yo I'm Trijit"
 description: ""
 author: Trijit
+
+url: "https://yo-im-trijit.github.io"
+baseurl: ""
 
 show_excerpts: true
 
@@ -10,6 +13,6 @@ minima:
   skin: dark
 
 markdown: kramdown
+
 include:
   - assets
-
